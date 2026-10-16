@@ -1,4 +1,5 @@
 // Tiny pure utility functions used by the CI lab.
+// added all this fxn
 
 function add(a, b) {
   return a + b;
@@ -13,3 +14,4 @@ function formatName(first, last) {
 }
 
 module.exports = { add, isEven, formatName };
+
